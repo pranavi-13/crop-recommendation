@@ -1,0 +1,7 @@
+numpy
+pandas
+seaborn
+Flask
+scikit-learn
+pickle
+

@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*Index page */
+
+.contain {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("https://bimpressed.com/wp-content/uploads/2016/01/featured_agriculture-1.jpg");
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.intro {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    padding:0 5% 3%;
+    margin: 0;
+    width: 40%;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.61)
+}
+
+.button {
+
+    display: inline-block;
+    background-image: linear-gradient(270deg, rgba(6, 147, 104), rgba(23, 36, 79));
+    border-radius: 8px;
+    border: transparent;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 0.75em 1.25em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    opacity: 0.9;
+    border: 1px solid white;
+}
+
+.title {
+    
+    color: rgb(18, 194, 141);
+    font-size:3.5rem;
+    line-height: 1.5;
+    font-weight:900;
+    padding: 7% 3% 3%;
+}
+
+.tag{
+    font-size:1.25rem;
+    line-height: 1.5;
+    color:rgb(191, 248, 255);
+    padding-bottom: 0.25rem;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 1em;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
